@@ -16,9 +16,6 @@ React Router
 
 Axios
 
-Zustand (для управления состоянием)
-
-TailwindCSS
 
 Backend:
 
@@ -97,7 +94,7 @@ npm run dev
 
 POST /auth/login
 
-Body: { "email": "user1@some.com", "password": "user1@some.com" }
+Body: { "email": "user1@some.com", "password": "user1@some.com" } //забыл сделать для "user2@some.com"
 
 Response: { "token": "jwt_token" }
 
@@ -123,6 +120,4 @@ GET /access/check-access
 
 Response: { "access": "allowed" } или { "access": "denied" }
 
-📝 Лицензия
 
-Этот проект распространяется под лицензией MIT.
